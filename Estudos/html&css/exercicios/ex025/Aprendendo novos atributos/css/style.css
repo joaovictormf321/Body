@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+main > p {
+    padding: 40px;
+}
+
+.Sample {
+    display: inline-flex;
+}
+
+iframe {
+    margin-right: 5px;
+}
+
+form {
+    margin-left: 5px;
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    display: inline-block;
+}
+
+form > p {
+    padding: 10px;
+}
+
+form > input {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.articlestri {
+    text-align: center;
+}
+
+.articlestri h2 {
+    padding: 20px;
+}
+
+.articlestri > .rmmsp {
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    margin: auto;
+    max-width: 900px;
+}
+
+.articlestri > .rmmsp > p {
+    padding-bottom: 10px;
+}
+
+.articlestri > .rmmsp > ul {
+    text-align: start;
+    list-style: none;
+    max-width: 800px;
+    margin: auto;
+}
+
+.articlestri > .rmmsp > ul > li {
+    padding: 5px;
+}
+
+.articlestri > .autoc > p {
+    padding: 0 40px 20px 40px;
+}
+
+.articlestri > .autoc > ul {
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+    padding: 20px 30px 20px 30px;
+    margin: auto;
+    max-width: 130px;
+    text-align: start;
+}
+
+.articlestri > .autoc > ul > li {
+    padding: 5px;
+}
+
+footer {
+    background-color: rgb(190, 190, 190);
+    margin-top: 20px;
+}
+
+footer p {
+    color: rgb(48, 48, 48);
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: black;
+    font-size: 1.1em;
+}
+
+@media (max-width: 520px) {
+    .Sample {
+        display: inline-block;
+    }
+    
+}

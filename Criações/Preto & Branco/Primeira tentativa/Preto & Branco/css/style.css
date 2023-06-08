@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+}
+
+.header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.header .pb {
+    font-size: 1.2em;
+}
+
+.header .e {
+    font-size: 0.8em;
+}
+
+.listra {
+    display: inline-block;
+    margin: auto;
+    width: 400px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+main div {
+    background-image: url('../img/fundo2.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.inicio article {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 700px;
+    height: 300px;
+    display: inline-flex;
+}
+
+.inicio article p {
+    color: rgb(184, 184, 184);
+    padding: 40px 40px ; 
+}
+
+main > .inicio article img {
+    padding: 20px 20px 20px 20px;
+    height: 250px;
+}
+
+main {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+main h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 25px;
+    font-size: 2em;
+    margin-right: 20%;
+}
+
+main .h1 {
+    font-size: 1.2em;
+}
+ 
+main p {
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.article {
+    height: 600px;
+    margin: 20px;
+}
+
+.article section {
+    padding: 30px;
+    background-color: black;
+    align-items: center;
+    display: inline-flex;
+    margin: auto;
+}
+
+.article section p {
+    color: rgb(184, 184, 184);
+    max-width: 300px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.article section img{
+    margin: auto;
+    max-width: 400px;
+    max-height: max-content;
+    display: inline-flex;
+}
+
+.section {
+    background-color: black;
+    min-height: 400px;
+}
+
+.section p {
+    color: rgb(184, 184, 184);
+} 
+.section .meio {
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.section .meio p {
+    color: rgb(184, 184, 184);
+    max-width: 500px;
+}
+
+.section .meio img {
+    max-width: 500px;
+    max-height: 260px;
+    padding: 20px;
+}
+
+.final {
+   padding: 20px;
+}
+
+.final span {
+    padding: 10px 0 0 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.final span p {
+    width: 400px;
+    margin-left:10px;
+}
+
+.final span ul {
+    padding: 30px 30px 30px 30px;
+    background-color: black;
+}
+
+.final span ul li {
+    color: white;
+}
+
+.final p {
+    max-width: 1000px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 860px) {
+    .article {
+        max-width: 860px;
+    }
+
+    .article section {
+        background-color: black;
+        align-items: center;
+        display: inline-flex;
+    }
+
+    .article section p {
+        color: white;
+    }
+    .article section img{
+        padding: 30px;
+        margin: auto;
+        max-width: 400px;
+        max-height: 420px;
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 760px) {
+    .article section img {
+        width: 250px;
+    }
+
+    .section .meio img {
+        width: 350px;
+        }
+}

@@ -1,0 +1,11 @@
+<form action="Error.php" autocomplete="on" method="post">
+<p>
+<label for="iusu">Usuario:</label>
+<input type="text" name="" id="iusu" required minlength="3" maxlength="20" size="15" placeholder="Nome de Usuario" autocomplete="username">
+</p>
+<p>
+<label for="isenha">Senha:</label>
+<input type="password" name="" id="isenha" required minlength="8" maxlength="20" size="15" placeholder="Senha" autocomplete="current-password">
+</p>
+<input type="submit" value="Enviar">
+</form>

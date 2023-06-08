@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novos atributos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Novos atributos</h1>
+    </header>
+    <main>
+    <p>Um formulário HTML é feito de um ou mais widgets. Esses widgets podem ser campos de texto (linha única ou de várias linhas), caixas de seleção, botões, checkboxes ou radio buttons. A maior parte do tempo, estes elementos são emparelhados com uma legenda que descreve o seu objetivo</p>
+        <article class="Sample">
+            <iframe src="code/code.txt" frameborder="0"></iframe>
+            <form action="Error.php" autocomplete="on" method="post">
+                <p>
+                    <label for="iusu">Usuario:</label>
+                    <input type="text" name="" id="iusu" required minlength="3" maxlength="20" size="15" placeholder="Nome de Usuario" autocomplete="username">
+                </p>
+                <p>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="" id="isenha" required minlength="8" maxlength="20" size="15" placeholder="Senha" autocomplete="current-password">
+                </p>
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+        <article class="articlestri">
+            <h2>Atributos para formularios</h2>
+            <section class="rmmsp">
+            <p>Atributos Usados dentros dos formularios(input):</p>
+                <ul>
+                    <li><p><strong>required</strong> - Deixa o campo do formulario obrigatorio para preenchimento.</p></li>
+                    <li><p><strong>minlength</strong> - Define a quantidade minima de caracteres do campo de formulario.</p></li>
+                    <li><p><strong>maxlength</strong> - Define a quantidade maxima de caracteres do campo de formulario.</p></li>
+                    <li><strong>size</strong> - Defone o tamanho da caixa do campo do formulario de acordo com o tando de caracteres.</li>
+                    <li><strong>placeholder</strong> - Tudo que escrever dentro desta atribuição, vai ficar dentro do campo do formulario, porem não vai atrapalhar preencher o campo.</li>
+                </ul>
+            </section>
+            <h2>Autocomplete</h2>
+            <section class="autoc">
+                <p>O <strong>Autocomplete</strong> serve para definir se vai ou não mostrar a caixa de ajuda no campo de digitação do formulario. Porem, o autocomplete tambem funciona dentro das tags <strong>input</strong>,ele é utilizado dessa forma para mostrar ou salvar o o que ta dentro do campo, se for e-mail, ele vai msotrar suas contas anteriosres, caso vc coloque uma conta qui vc num tem salva, o <strong>autocomplete</strong> vai salvar pra qui na proxima vez aparessa.</p>
+                <br>
+                <p>Entre <strong>On</strong> e <strong>Off</strong>, tambem é possovel colocar:</p>
+                <ul>
+                    <li>new-password</li>
+                    <li>current-password</li>
+                    <li>nickname</li>
+                    <li>name</li>
+                    <li>username</li>
+                    <li>email</li>
+                    entre outros...
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer><p>Dev <a href="../../../../../../Body/index/index.html">João victor M</a></p></footer>
+</body>
+</html>

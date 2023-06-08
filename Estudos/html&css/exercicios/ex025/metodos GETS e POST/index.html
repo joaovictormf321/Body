@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos GET e POST</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Metodos Get e Post</h1>
+        <p class="sla">Existem dois metodos de envios de formularios, o primeiro metodo é o que já vem como padrão quando nos cria um formulario, esse metodo  é o (GET), o metodo <ins>GEt</ins> deixa visivel tudo qui foi enviado pelo formulario na URL do site</p>
+
+    <div class="class">        
+            <iframe src="Codes/code-Get.txt" frameborder="0"></iframe>
+        <form method="get" action="">
+            <p><label for="Nome">Nome:</label>
+                <input type="text" name="" id="Nome"></p>
+            <p><label for="Sobrenome">Sobrenome:</label> 
+                <input type="text" name="" id="Sobrenome"></p>
+                <input type="submit" value="Enviar">
+        </form>
+    </div>
+     
+    <p class="sla">Já o metodo <strong>POST</strong>, não deixa tudo enviado do formulario na URL. Porem, ainda é possivel encotrar tudo enviado, entrando no (<strong>Especionar elemento</strong>), por isso, não aumenta a segurança do site, por isso tera que estudar outras linguagens de programação.</p>
+
+    <div>
+        <iframe src="Codes/code-Post.txt" frameborder="0"></iframe>
+        <form action="" method="post">
+            <p><label for="nome">Nome:</label>
+                 <input type="text" name="" id="nome"></p>
+            <p><label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="" id="sobrenome"></p>
+                <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    
+
+    <article class="article">
+        <h2>Quando usa <strong>GET</strong> e quando uar <strong>POST</strong>?</h2>
+        <p><strong>GET</strong>: O metodo <strong>Get</strong> pode ser usado quando as informações do formulario não for muito inportante,Exemplo: Quando o assunto for nome, persquisa e etc. E tambem o metodo <strong>Get</strong>, deixa uma URL para vc poder copiar, então se voce quiser mandar uma pesquisa para uma pessoa, è so copiar a URL da pesquisa. Porem, o metodo Get so pode enviar ate 3000 mil <abbr title="Aproximadamente 3000 mil letras">BIT</abbr> e nem enviar fotos ou documentos</p>
+
+        <p><Strong>POST</Strong>: O metodo <strong>Post</strong> já e usado para envios de coisas mais restritas como senha, email, numero de cartão de cretido, e tambem para envios de arquivos, o  diferencial do Get, é que o Post pode enviar formularios com mais de 3000 mil <abbr title="Apro
+            3000 mil letras">BIT</abbr>. </p>
+    </article>
+    </main>
+</body>
+</html>
