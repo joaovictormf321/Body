@@ -23,30 +23,30 @@
         </p>
         <article class="code">
             <iframe src="code/code.txt" frameborder="0"></iframe>
-            <form action="cadastro.php" method="post" autocomplete="on">
-                <p><label for="inome">Nome:</label>
-                <input type="text" name="" id="inome" required maxlength="40" minlength="5" placeholder="Nome completo"
-                autocomplete="name"></p>
-                <p>
-                    <label for="imedia">Média:</label>
-                    <input type="number" value="5" name="media" id="imedia" required min="0" max="10" placeholder="0 a 10" autocomplete="num" step="0.1">
-                </p>
-                <p>
-                    <label for="imes">Périodo letivo:</label>
-                    <input type="month" require name="" id="imes" value="<?php echo $hoje ?>" >
-                </p>
-                <p>
-                    <label for="idia">Data:</label>
-                    <input type="date" require name="dia" id="idia" value="<?php echo $dia?>">
-                </p>
-                <p>
-                    <label for="ihora">Horario:</label>
-                    <input type="time" name="" id="ihora" require value="10-10">
-                </p>
-                <div class="painel">
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
-                </div>
+            <form id="Formulario" action="cadastro.php" method="post" autocomplete="on">
+                    <p><label for="inome">Nome:</label>
+                    <input type="text" name="" id="inome" required maxlength="40" minlength="5" placeholder="Nome completo"
+                    autocomplete="name"></p>
+                    <p>
+                        <label for="imedia">Média:</label>
+                        <input type="number" value="5" name="media" id="imedia" required min="0" max="10" placeholder="0 a 10" autocomplete="num" step="0.1">
+                    </p>
+                    <p>
+                        <label for="imes">Périodo letivo:</label>
+                        <input type="month" require name="" id="imes" value="<?php echo $hoje ?>" >
+                    </p>
+                    <p>
+                        <label for="idia">Data:</label>
+                        <input type="date" require name="dia" id="idia" value="<?php echo $dia?>">
+                    </p>
+                    <p>
+                        <label for="ihora">Horario:</label>
+                        <input type="time" name="" id="ihora" require value="10-10">
+                    </p>
+                    <div class="painel">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
             </form>
         </article>
         <article class="main">
