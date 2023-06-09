@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+/* form */
+form {
+    margin: auto;
+    background-color: rgb(170, 170, 170);
+    max-width: 300px;
+    text-align: center;
+}
+
+.container {
+    padding: 10px;
+    display: inline-flex; 
+    margin: auto;
+    text-align: start;
+}
+
+
+.container > .label p {
+    padding: 5px;
+}
+
+.input > input {
+    margin: 5px;
+}
+
+form .input {
+    display: grid;
+}
+
+.input input {
+    max-width: 100px;
+}
+form > .painel {
+    padding: 5px;
+    display: inline-flex;
+}
+
+.submit, .reset {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+}

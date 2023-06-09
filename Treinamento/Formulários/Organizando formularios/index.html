@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h2>Organizando formularios</h2>
+        <form action="" method="post" autocomplete="on">
+            <div class="container">
+                <div class="label">
+                    <p>
+                        <label for="nome">Nome:</label>
+                    </p>
+                    <p>
+                        <label for="sobrenome">Sobrenome:</label>
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                    </p>
+                </div>
+                <div class="input">
+                    <input autocomplete="name" type="text" name="" id="nome" placeholder="Nome" required minlength="8">
+                    <input autocomplete="name" type="text" name="" id="sobrenome" placeholder="Sobrenome" required minlength="5">
+                    <input autocomplete="email" type="email" name="" id="email" placeholder="E-mail" required>
+                </div>
+            </div>
+            <div class="painel"><input class="submit" type="submit" value="Enviar">
+            <input type="reset" value="Limpar" class="reset">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
