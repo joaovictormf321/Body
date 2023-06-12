@@ -1,0 +1,16 @@
+<form action="" autocomplete="on" method="post">
+    <fieldset>
+                <legend>Comunicação</legend>
+            <p>
+                <label for="Iemail">E-mail:</label>
+                <input type="email" name="" required autocomplete="email" min="5" id="Iemail" placeholder="E-mail">
+            </p>
+            <p>
+                <label for="itele">Telefone:</label>
+                <input type="tel" name="" id="itele" required autocomplete="tel" min="8" placeholder="Telefone">
+            </p>
+       <div class="painel">
+            <input class="submit" type="submit" value="Enviar">
+        </div>
+    </fieldset>
+</form>
