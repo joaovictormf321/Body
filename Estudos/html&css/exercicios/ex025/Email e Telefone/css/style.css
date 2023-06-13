@@ -16,7 +16,7 @@ header > h1 {
 }
 
 header > p {
-    padding: 0 0 30px 0;
+    padding: 0 30px 30px 30px;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -31,13 +31,13 @@ main {
 }
 
 .container-form form {
-    margin: 0 0 0 5px;
+    margin: 0 0 30px 5px;
     padding: 10px;
     background-color: rgb(170, 170, 170);
 }
 
 iframe {
-    margin: 0 5px 0 0;
+    margin: 0 5px 30px 0;
 }
 
 p {
@@ -47,3 +47,67 @@ p {
 .submit {
     padding: 5px;
 }
+
+.container-main {
+    background-color: rgb(170, 170, 170);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-main p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container-main ul, .ul-extra {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: start;
+    padding: 20px;
+}
+ .container-main ul li {
+    padding: 5px;
+ }
+
+ .extra {
+    padding: 20px;
+ }
+
+ .ul-extra > li {
+    padding: 5p 20px 5px 20pxx;
+ }
+
+ footer {
+    background-color: rgb(170, 170, 170);
+ }
+
+ footer > p {
+    padding: 5px;
+    text-align: center;
+ }
+
+ footer p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+ }
+
+ @media (max-width: 544px) {
+    .container-form {
+        display: inline-block;
+    }
+    .container-form form {
+        margin: 5px auto;
+    }
+    iframe {
+        margin: 5px auto;
+        
+    }
+    .container-main {
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+ }
