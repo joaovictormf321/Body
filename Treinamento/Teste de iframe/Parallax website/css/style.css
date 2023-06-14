@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.back1,.back4 {
+    background-image: url(../img/parimg1.jpg);
+    opacity: 0.70;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.back2,.back3 {
+    opacity: 0.70;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    height: 400px;
+}
+
+.back2 {
+    background-image: url(../img/parimg3.jpg);
+}
+.back3 {
+    background-image: url(../img/parimg2.jpg);
+}
+
+.h1top, .h1footer {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #1a1616;
+    padding: 20px 30px 20px 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ h1 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+section {
+    padding: 60px;
+}
+
+section > p {
+    padding: 40px 10px;
+}
+
+section h2,p {
+    color: rgb(110, 110, 110);
+}
+
+.section_black, .section_black > p, .section_black > h2 {
+    color: rgb(187, 187, 187);
+    background-color: rgb(30, 29, 44);
+}
