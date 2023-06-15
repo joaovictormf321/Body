@@ -1,0 +1,38 @@
+<form action="" autocomplete="on" method="post">
+    <fieldset>
+        <legend>Genero</legend>
+        <p>
+            <input type="radio" name="sexo" id="sexmas" value="M" required>
+            <label for="sexmas">Masculino</label>
+        </p>
+        <p>
+            <input type="radio" name="sexo" id="sexfem" value="F" required checked>
+            <label for="sexfem">Feminino</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Esportes</legend>
+        <div class="checkbox" style="display: inline-flex;">
+            <p>
+                <input type="checkbox" name="" id="ifut" checked>
+                <label for="ifut">Futebol</label>
+            </p>
+            <p>
+                <input type="checkbox" name="" id="ibas">
+                <label for="ibas">Basquete</label>
+            </p>
+            <p>
+                <input type="checkbox" name="" id="inat">
+                <label for="inat">Natação</label>
+            </p>
+            <p>
+                <input type="checkbox" name="" id="iten">
+                <label for="iten">Ténis</label>
+            </p>
+        </div>
+            <div class="painel">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+    </fieldset>
+</form>

@@ -9,46 +9,48 @@
 <body>
     <header>
         <h1>Checkbox e Radio button</h1>
+        <p>Hoje vou aprender Checkbox e Radio button, para fazer uns formularios para colocar seu genero e etc, talvez para fazer um cronograma talvez.</p>
     </header>
     <main>
-        <form action="" autocomplete="on" method="post">
-            <fieldset>
-                <legend>Genero</legend>
-                <p>
-                    <input type="radio" name="sexo" id="sexmas" value="M" required>
-                    <label for="sexmas">Masculino</label>
-                </p>
-                <p>
-                    <input type="radio" name="sexo" id="sexfem" value="F" required checked>
-                    <label for="sexfem">Feminino</label>
-                </p>
-            </fieldset>
-            <fieldset>
-                <legend>Esportes</legend>
-                <div class="checkbox" style="display: inline-flex;">
+        <article class="code">
+            <iframe src="code/code.txt" frameborder="0"></iframe>
+            <form action="" autocomplete="on" method="post">
+                <fieldset>
+                    <legend>Genero</legend>
                     <p>
-                        <input type="checkbox" name="" id="ifut" checked>
-                        <label for="ifut">Futebol</label>
+                        <input type="radio" name="sexo" id="sexmas" value="M" required>
+                        <label for="sexmas">Masculino</label>
                     </p>
                     <p>
-                        <input type="checkbox" name="" id="ibas">
-                        <label for="ibas">Basquete</label>
+                        <input type="radio" name="sexo" id="sexfem" value="F" required checked>
+                        <label for="sexfem">Feminino</label>
                     </p>
-                    <p>
-                        <input type="checkbox" name="" id="inat">
-                        <label for="inat">Natação</label>
-                    </p>
-                    <p>
-                        <input type="checkbox" name="" id="iten">
-                        <label for="iten">Ténis</label>
-                    </p>
-                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Esportes</legend>
+                        <p>
+                            <input type="checkbox" name="" id="ifut" checked>
+                            <label for="ifut">Futebol</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="" id="ibas">
+                            <label for="ibas">Basquete</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="" id="inat">
+                            <label for="inat">Natação</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="" id="iten">
+                            <label for="iten">Ténis</label>
+                        </p>
+                    </fieldset>
                     <div class="painel">
                         <input type="submit" value="Enviar">
                         <input type="reset" value="Limpar">
                     </div>
-            </fieldset>
-        </form>
+            </form>
+        </article>
     </main>
 </body>
 </html>
