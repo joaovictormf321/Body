@@ -31,7 +31,7 @@ main {
 }
 
 form {
-    background-color: rgb(182, 182, 182)
+    background-color: rgb(182, 182, 182);
 }
 
 .code form, iframe {
@@ -39,3 +39,75 @@ form {
     min-width: 200px;
 }
 
+.atributos {
+    margin-top: 40px;
+    background-color: rgb(182, 182, 182);
+}
+
+.atributos h2 {
+    padding: 20px
+}
+
+.atributos p {
+    padding: 10px 30px 20px 30px;
+}
+
+.atributos ul {
+    margin: 0 auto;
+    text-align: start;
+    max-width: 700px;
+    padding: 40px;
+}
+
+.atributos ul li {
+    padding: 5px;
+}
+
+.ul-obs {
+    list-style: none;
+}
+
+.sub-container {
+    padding: 10px 40px 40px 40px; 
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sub-container p,h2 {
+    padding: 30px;
+}
+
+.sub-container ul {
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: start;
+}
+
+.sub-container ul li {
+    padding: 5px;
+}
+
+.obs ul {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(182, 182, 182);
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+}
+
+footer p strong a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+@media (max-width: 534px) {
+    .code {
+        display: inline-block;
+    }
+}
