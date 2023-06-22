@@ -1,0 +1,18 @@
+<form action="" autocomplete="on" method="post">
+    <p>
+        <label for="icor">Cor:</label>
+        <input type="color" name="" id="icor" value="#338fff">
+    </p>
+    <p>
+        <label for="inivel">Nivel de sastifação:</label>
+        <input type="range" name="" id="inivelmin="1" max="5" value="2">
+    </p>
+    <p>
+        <label for="ifile">Arquivo:</label>
+        <input type="file" name="" id="ifile">
+    </p>
+            <div class="painel">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>
+</form>

@@ -9,26 +9,57 @@
 <body>
     <header>
         <h1>Elementos color, range e file em HTML</h1>
+        <p>Aprendendo novos campos de formularios, essa noite aprendi a fazer coampo de cor, range, e de arquivos em HTML.</p>
     </header>
     <main>
-        <form action="" autocomplete="on" method="post">
-            <p>
-                <label for="icor">Cor:</label>
-                <input type="color" name="" id="icor" value="#338fff">
-            </p>
-            <p>
-                <label for="inivel">Nivel de sastifação:</label>
-                <input type="range" name="" id="inivel" min="1" max="5" value="2">
-            </p>
-            <p>
-                <label for="ifile">Arquivo:</label>
-                <input type="file" name="" id="ifile">
-            </p>
-            <div class="painel">
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </div>
-        </form>
+        <aritcle class="code">
+            <iframe src="code/code.txt" frameborder="0"></iframe>
+            <form action="" autocomplete="on" method="post">
+                <p>
+                    <label for="icor">Cor:</label>
+                    <input type="color" name="" id="icor" value="#338fff">
+                </p>
+                <p>
+                    <label for="inivel">Nivel de sastifação:</label>
+                    <input type="range" name="" id="inivel" min="1" max="5" value="2">
+                </p>
+                <p>
+                    <label for="ifile">Arquivo:</label>
+                    <input type="file" name="" id="ifile">
+                </p>
+                <div class="painel">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </aritcle>
+        <article class="container-campos">
+            <h2>Color, range e file</h2>
+            <p>Campos Color, range e file para formularios</p>
+            <section>
+                <ul>
+                    <li><strong>Color:</strong> Adiciona um campo de cor, usado como seletor de cor.</li>
+                    <li><strong>Range:</strong> Adiciona um controle para inserir um numero cujo o valor não seja importante(Como um controle deslizante).</li>
+                    <li><strong>File:</strong> Adicona um campo de seleção de aquivos e um botão "Procurar" para uploads de arquivos.</li>
+                </ul>
+            </section>
+        </article>
+        <article class="container-atributos">
+            <h2>Atributos para Range</h2>
+            <p>Usar o range sem range, acaba que pode deixar ele quase inutio, porem, existem atributos para melhorar o uso dele.</p>
+            <section>
+                <ul>
+                    <li><strong>Max:</strong> Especifica o valor maximo permitido.</li>
+                    <li><strong> Min:</strong>Especifica o valor minimo permitido.</li>
+                    <li><strong>Step:</strong> Especifica os intervalos de numeros legal.</li>
+                    <li><strong>Value:</strong> Especifica o valor padrão.</li>
+                </ul>
+                <p><strong>Obs:</strong> O atributo <Strong>Value</Strong> poder ser usado no <i>Range</i> como tambem no <i>Color</i>, no color é usado para definir uma cor padrão.</p>
+            </section>
+        </article>
     </main>
+    <footer>
+        <p>Dev <a href="../../../../../../Index/index.html">João victor M</a></p>
+    </footer>
 </body>
 </html>

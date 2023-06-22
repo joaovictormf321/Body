@@ -106,6 +106,19 @@ footer p strong a {
     font-weight: 800;
 }
 
+html ::-webkit-scrollbar {
+    width: 10px;
+  }
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    width: 10px;
+    background: #1f1f3e;
+  }
+html ::-webkit-scrollbar-track {
+    background: #4c4c4f;
+    position: absolute;
+  }
+
 @media (max-width: 534px) {
     .code {
         display: inline-block;

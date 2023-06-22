@@ -234,6 +234,17 @@ footer p {
         width: 280px;
     }
 }
+
+html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #1f1f3e;
+  }
+  html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
 /*
 main div {
     background-image: url('../img/fundo2.png');

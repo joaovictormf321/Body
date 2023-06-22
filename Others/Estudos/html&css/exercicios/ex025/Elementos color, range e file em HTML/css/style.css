@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    padding: 40px 0 0 0;
+}
+
+header > p {
+    padding: 40px 10px 40px 10px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+main {
+    text-align: center;
+}
+
+.code {
+    margin: 0 auto;
+    display: inline-flex;
+    padding: 0 0 20px 0;
+}
+
+iframe {
+    margin-right: 5px;
+}
+
+form {
+    background-color: rgb(199, 199, 199);
+    margin-left: 5px;
+}
+
+form > p {
+    padding: 10px;
+}
+
+.painel {
+    padding: 5px;
+}
+
+.container-campos {
+    margin: 0 auto;
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+}
+
+.container-campos ul {
+    text-align: start;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-campos ul li, .container-atributos ul li {
+    padding: 5px;
+}
+
+.container-atributos {
+    padding: 10px;
+}
+
+.container-atributos h2 {
+    padding: 20px;
+}
+
+.container-atributos p {
+    padding: 0 0 20px 0;
+}
+
+.container-atributos section {
+    text-align: center;
+}
+
+.container-atributos ul {
+    text-align: start;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container-atributos section > p {
+    padding: 20px;
+    max-width: 650px;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(199, 199, 199);
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+}
+
+footer p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+@media (max-width: 620px) {
+    .code {
+        display: inline-block;
+    }
+    form {
+        margin: 0 auto;
+    }
+}
