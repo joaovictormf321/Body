@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalist e textarea em HTML</title>
+</head>
+<body>
+    <main>
+        <form action="" method="post" autocomplete="on">
+            <p>
+                <label for="ist">Estado:</label>
+                <select name="" id="ist" form="">
+                    <option value="" selected>---Escolha---</option>
+                    <optgroup label="sudete">
+                        <option value="goias">Goias</option>
+                        <option value="mt">Mato Grosso</option>
+                    </optgroup>
+                    <optgroup label="sudeste">
+                        <option value="mg">Minas Gerais</option>
+                        <option value="am">Amazonas</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profição:</label>
+                <input type="text" name="" id="iprof" list="listprof">
+                <datalist id="listprof">
+                    <option value="adm">Administrador</option>
+                    <option value="mec">Mecanico</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="men">Mensagem:</label>
+                <textarea name="" id="men" cols="30" rows="10"></textarea>
+            </p>
+            <div class="painel">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
