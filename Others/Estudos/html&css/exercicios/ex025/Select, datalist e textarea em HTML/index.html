@@ -4,41 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select, datalist e textarea em HTML</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1>Select, datalist e textarea em HTML</h1>
+        <p>Mais tag HTML de formularios, hoje Select, datalist e textarea em HTML.</p>
+    </header>
     <main>
-        <form action="" method="post" autocomplete="on">
-            <p>
-                <label for="ist">Estado:</label>
-                <select name="" id="ist" form="">
-                    <option value="" selected>---Escolha---</option>
-                    <optgroup label="sudete">
-                        <option value="goias">Goias</option>
-                        <option value="mt">Mato Grosso</option>
-                    </optgroup>
-                    <optgroup label="sudeste">
-                        <option value="mg">Minas Gerais</option>
-                        <option value="am">Amazonas</option>
-                    </optgroup>
-                </select>
-            </p>
-            <p>
-                <label for="iprof">Profição:</label>
-                <input type="text" name="" id="iprof" list="listprof">
-                <datalist id="listprof">
-                    <option value="adm">Administrador</option>
-                    <option value="mec">Mecanico</option>
-                </datalist>
-            </p>
-            <p>
-                <label for="men">Mensagem:</label>
-                <textarea name="" id="men" cols="30" rows="10"></textarea>
-            </p>
-            <div class="painel">
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </div>
-        </form>
+        <div class="code">
+            <iframe src="code/code.txt" frameborder="0"></iframe>
+            <form action="" method="post" autocomplete="on">
+                <p>
+                    <label for="ist">Estado:</label>
+                    <select name="" id="ist" form="">
+                        <option value="" selected>---Escolha---</option>
+                        <optgroup label="sudete">
+                            <option value="goias">Goias</option>
+                            <option value="mt">Mato Grosso</option>
+                        </optgroup>
+                        <optgroup label="sudeste">
+                            <option value="mg">Minas Gerais</option>
+                            <option value="am">Amazonas</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="iprof">Profição:</label>
+                    <input type="text" name="" id="iprof" list="listprof" required>
+                    <datalist id="listprof">
+                        <option value="adm">Administrador</option>
+                        <option value="mec">Mecanico</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="men">Mensagem:</label>
+                    <br>
+                    <textarea name="" id="men" cols="30" rows="10"></textarea>
+                </p>
+                <div class="painel">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </div>
+        <article class="container-strong">
+            <h2>Select, datalist e textarea</h2>
+            <p>Tags para formularios, Select, datalist e textarea tags de formularios sem <strong>Input</strong>.</p>
+            <section>
+                <ul>
+                    <li><strong>select</strong>: Representa um controle que apresenta um menu de opções.</li>
+                    <li><strong>datalist</strong>: Usado para criar uma associaçaõ entre o <ins>datalist</ins> e o <ins>input</ins>.</li>
+                    <li><strong>textarea</strong>: Cria um capo para colocar uma contidade maior de texto.</li>
+                </ul>
+            </section>
+        </article>
+        </article>
     </main>
 </body>
 </html>

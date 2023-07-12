@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    padding: 40px 0 10px 0;
+}
+
+header p {
+    margin: 0 auto;
+    padding: 10px 0 40px 0 ;
+    max-width: 450px;
+}
+
+main {
+    text-align: center;
+}
+
+.code {
+    display: inline-flex;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+}
+
+.code P {
+    padding: 5px;
+}
+
+.painel {
+    padding: 5px;
+}
+
+form, iframe {
+    text-align: start;
+    background-color: rgb(160, 160, 160);
+    margin-left: 10px;
+}
+
+.container-strong {
+    padding: 10px;
+    background-color: rgb(160, 160, 160);
+
+}
+
+h2 {
+    padding: 30px;
+}
+

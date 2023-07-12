@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar elemento HTMl</title>
+    <script>
+        function button() {
+            document.getElementById("title").innerHTML = "Olá mundo!";
+            document.getElementById("button").style.display = "none";
+            document.getElementById("voltar").style.display = "block"
+        }
+
+        function voltar() {
+           document.getElementById("title").innerHTML = "Clique no botão"
+           document.getElementById("button").style.display = "block";
+           document.getElementById("voltar").style.display = "none";
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="title">Clique no botão</h1>
+    <button id="button" onclick="button()">Botão</button>
+    <button style="display: none;" id="voltar" onclick="voltar()">Voltar</button>
+</body>
+</html>
